@@ -117,4 +117,17 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Sistema de Formulario
+Control de Vacaciones de la Prefectura de El Oro en el área de Talento Humano
+Versión 1.0
+© 2023 - Estudiantes Utmach - Tecnologías de la Información - 4ta. Promoción
+Todos los derechos reservados</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Advertencia: este programa está protegido por los derechos de autor e institución académica en convenio.
+La reproducción o distribución ilicita de este programa o de cualquier parte del mismo está penada por la ley con severas
+sanciones civiles y penales, y será objeto de todas las acciones judiciales que correspondan.
+</value>
+  </data>
 </root>

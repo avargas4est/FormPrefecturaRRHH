@@ -16,5 +16,10 @@ namespace FormPrefecturaRRHH.Forms.Acercade
         {
             InitializeComponent();
         }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -309,7 +309,9 @@
   <ItemGroup>
     <None Include="img\apps_icon_151630.png" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="img\Utmach_76alto2.png" />
+  </ItemGroup>
   <ItemGroup>
     <None Include="img\holiday_32.png" />
   </ItemGroup>
@@ -330,6 +332,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="img\gui_print_icon_157059.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\FIC_76.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\logo_prefectura 96.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

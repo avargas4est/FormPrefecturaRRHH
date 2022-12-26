@@ -173,6 +173,16 @@ namespace FormPrefecturaRRHH.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap FIC_76 {
+            get {
+                object obj = ResourceManager.GetObject("FIC_76", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap gui_print_64 {
             get {
                 object obj = ResourceManager.GetObject("gui_print_64", resourceCulture);
@@ -266,6 +276,26 @@ namespace FormPrefecturaRRHH.Properties {
         internal static System.Drawing.Bitmap logo_prefectura_256 {
             get {
                 object obj = ResourceManager.GetObject("logo_prefectura 256", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap logo_prefectura_2561 {
+            get {
+                object obj = ResourceManager.GetObject("logo_prefectura 2561", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap logo_prefectura_96 {
+            get {
+                object obj = ResourceManager.GetObject("logo_prefectura 96", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -426,6 +456,16 @@ namespace FormPrefecturaRRHH.Properties {
         internal static System.Drawing.Bitmap users_40493 {
             get {
                 object obj = ResourceManager.GetObject("users_40493", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Utmach_76alto2 {
+            get {
+                object obj = ResourceManager.GetObject("Utmach_76alto2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

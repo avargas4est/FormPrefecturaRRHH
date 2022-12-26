@@ -1,0 +1,328 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{25C1E7B8-0626-4F7B-831F-CA9D2ED7CDC0}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>FormPrefecturaRRHH</RootNamespace>
+    <AssemblyName>FormPrefecturaRRHH</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Forms\Administrar\frmBDEmpleados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Administrar\frmBDEmpleados.Designer.cs">
+      <DependentUpon>frmBDEmpleados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Administrar\frmBDSecretarias.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Administrar\frmBDSecretarias.Designer.cs">
+      <DependentUpon>frmBDSecretarias.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Administrar\frmBDUsuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Administrar\frmBDUsuarios.Designer.cs">
+      <DependentUpon>frmBDUsuarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Administrar\frmEmpleados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Administrar\frmEmpleados.Designer.cs">
+      <DependentUpon>frmEmpleados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Administrar\frmSecretarias.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Administrar\frmSecretarias.Designer.cs">
+      <DependentUpon>frmSecretarias.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Administrar\frmUsuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Administrar\frmUsuarios.Designer.cs">
+      <DependentUpon>frmUsuarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Apps\frmApps.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Apps\frmApps.Designer.cs">
+      <DependentUpon>frmApps.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Apps\frmBDContratos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Apps\frmBDContratos.Designer.cs">
+      <DependentUpon>frmBDContratos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Apps\frmBDVacaciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Apps\frmBDVacaciones.Designer.cs">
+      <DependentUpon>frmBDVacaciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Apps\frmContratos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Apps\frmContratos.Designer.cs">
+      <DependentUpon>frmContratos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Apps\frmVacaciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Apps\frmVacaciones.Designer.cs">
+      <DependentUpon>frmVacaciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Home\frmHome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Home\frmHome.Designer.cs">
+      <DependentUpon>frmHome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmHome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHome.Designer.cs">
+      <DependentUpon>frmHome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Administrar\frmAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Administrar\frmAdmin.Designer.cs">
+      <DependentUpon>frmAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ThemeColor.cs" />
+    <EmbeddedResource Include="Forms\Administrar\frmBDEmpleados.resx">
+      <DependentUpon>frmBDEmpleados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Administrar\frmBDSecretarias.resx">
+      <DependentUpon>frmBDSecretarias.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Administrar\frmBDUsuarios.resx">
+      <DependentUpon>frmBDUsuarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Administrar\frmEmpleados.resx">
+      <DependentUpon>frmEmpleados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Administrar\frmSecretarias.resx">
+      <DependentUpon>frmSecretarias.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Administrar\frmUsuarios.resx">
+      <DependentUpon>frmUsuarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Apps\frmApps.resx">
+      <DependentUpon>frmApps.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Apps\frmBDContratos.resx">
+      <DependentUpon>frmBDContratos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Apps\frmBDVacaciones.resx">
+      <DependentUpon>frmBDVacaciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Apps\frmContratos.resx">
+      <DependentUpon>frmContratos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Apps\frmVacaciones.resx">
+      <DependentUpon>frmVacaciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Home\frmHome.resx">
+      <DependentUpon>frmHome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHome.resx">
+      <DependentUpon>frmHome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Administrar\frmAdmin.resx">
+      <DependentUpon>frmAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\boton-de-configuracion-negro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\ic-cancel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\logo_prefectura 256.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\logo prefectura.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\logout_icon_183923.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\user-black-close-up-shape_icon-icons.com_56876.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\menu_icon-icons.com_69502.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\lines_menu_burger_icon_123889 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\user-black-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\employee__icon-icons.com_76984.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\employee__64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\workplace_64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\users_40493.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\work_office_64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\backwards_icon_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\backwards_icon_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\save_icon-icons.com_53618.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\Newfile_page_document_empty_6315.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\editing.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\Search_find.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\search_locate_find_icon-icons.com_67287.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\home_icon-icons.com_73532.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\medical_report_icon_133852.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\medical_report_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\analytics_report_data_business_document_analysis_charts_icon_188683.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\page_paperwork_folder_data_management_document_business_file_icon_212641.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\documents_files_icon_144654.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\report_icon_215362.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\show-apps-button_icon-icons.com_72551.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\apps_120985.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\apps_icon_151630.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Forms\Reportes\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\holiday_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\holiday_64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\contract_64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\travel-holiday-vacation-328_89069.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\travel-holiday-vacation-313_89075.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\gui_print_64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\gui_print_icon_157059.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

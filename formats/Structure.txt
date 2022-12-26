@@ -1,0 +1,23 @@
+Login
+Acceso a Vacaciones
+Acceso a Registor Contratos
+Acceso Admin a Todos
+
+
+Empleados (CRUD)
+Cedula
+Apellidos
+Nombre
+--------------------------------
+Proceso
+SubProceso
+Puesto
+Lugar de Trabajo
+Remuneracion
+----------------------------------
+
+
+Usuarios (CRUD)
+
+
+Vista para Imprimir
